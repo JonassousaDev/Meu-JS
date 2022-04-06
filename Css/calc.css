@@ -1,0 +1,51 @@
+
+html{
+    box-sizing: border-box;
+}
+
+
+/*Barco*/
+
+
+
+table{
+    padding: 10px;
+    border: 0.5px solid black;
+    width: 50%;
+}
+
+thead {
+    text-align: left;
+    
+}
+
+tr{
+
+}
+
+
+
+
+/*Calc*/
+.calc p{
+    
+    font-size: larger;
+}
+.calc{
+    width: fit-content;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.res {
+    margin-left: 30px;
+    font-size: x-large;
+
+    background-color: greenyellow;
+    width: fit-content;
+}
+
+input, button{
+    display: block;
+    margin: 10px;
+}

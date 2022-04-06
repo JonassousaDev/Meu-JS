@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/calc.css">
+    <script src="JS/calc.js"></script> 
+    <title>Calculadora</title>
+</head>
+<body>
+        <div class="barco">
+            <h2>Problema:</h2>
+            <p>Atravessia do Rio(forma segura) <br>
+                Homen=A Lobo=B Cabra=C alfafa=D</p>
+                <h2>Regras:</h2>
+                <ol>
+                    <li>Somente 2 no barco, Homem + 1</li>
+                    <li>Lobo e cabra nao podem ficar sozinhos  <mark>BC</mark></li>
+                    <li>Cabra e alfafa nao podem ficar sozinhos <mark>CD</mark> </li>
+                </ol>
+                
+                <Table>
+                  <thead>
+                    <th>N° da viagen</th>
+                    <th>Lado Esq</th>
+                    <th>Viajante</th>
+                    <th>Lado Dir</th>
+                </thead>
+                    <Tr>
+                        <td>0</td>
+                        <td>ABCD</td>
+                        <td></td>
+                        <td></td>
+                    </Tr>
+                        <Tr>
+                            <td>1</td>
+                            <td>BD</td>
+                            <td>AC</td>
+                            <td>AC</td>
+                        </Tr>
+                        <Tr>
+                            <td>2</td>
+                            <td>ABD</td>
+                            <td>A</td>
+                            <td>C</td>
+                        </Tr>
+                        <Tr>
+                            <td>3</td>
+                            <td>D</td>
+                            <td>AB</td>
+                            <td>ABC</td>
+                        </Tr>
+                        <Tr>
+                            <td>4</td>
+                            <td>ACD</td>
+                            <td>AC</td>
+                            <td>B</td>
+                        </Tr>
+                        <Tr>
+                            <td>5</td>
+                            <td>C</td>
+                            <td>AD</td>
+                            <td>ABD</td>
+                        </Tr>
+                        <Tr>
+                            <td>6</td>
+                            <td>AC</td>
+                            <td>A</td>
+                            <td>BD</td>
+                        </Tr>
+                        <Tr>
+                            <td>7</td>
+                            <td></td>
+                            <td>AC</td>
+                            <td>ABCD</td>
+                        </Tr>
+
+
+
+
+
+
+              </Table>  
+            
+        </div>
+
+            <h1>calculadora de media</h1>
+<div class="calc">
+
+    <p>Digite 3 numeros para calcular a media</p>
+    <input type="number" name="nunber" id="a">
+    <input type="number" name="nunber" id="b">
+    <input type="number" name="nunber" id="c">
+   
+    <button onclick="obterMedia()">Calcular Media</button>
+ 
+    <div class="res" id="resultado "></div>
+</div>
+</html>
+
+
+
