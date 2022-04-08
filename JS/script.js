@@ -60,7 +60,7 @@ function validaCampoNumerico(elemento){
 
         event.preventDefault();
 
-        let numero = this.value.match(/^[\d]5-[\d/]3/) ? this.value.replace(/-/, "") : this.value; 
+        let numero = this.value.match(/^[\d]5-[\d]3/) ? this.value.replace(/-/, "") : this.value;  
 
         if(numero != "" && numero.match(/[0-9]*/) && numero >= 0 && numero <= 10){
             document.querySelector('.mensagem').innerHTML = "";
@@ -128,7 +128,7 @@ function validaCidade(elemento){
 
 
 let camposObrigatorios = document.querySelectorAll('input.obrigatorio');
-let camposNumericos = document.querySelectorAll('input.numero');   /*<-A class nao corresponde com a do HTML*/
+let camposNumericos = document.querySelectorAll('input.numerico'); 
 let camposEmail = document.querySelectorAll('input.email');
 let camposUf = document.querySelectorAll('input.uf');
 
